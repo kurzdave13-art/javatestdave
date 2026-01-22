@@ -12,7 +12,7 @@ public class PAssign01a {
         double totalBeveragePrice = priceOfBeverages * numBeverages;
         double totalSandwichPrice = priceOfSandwiches * numSandwiches;
         double total = totalBeveragePrice + totalSandwichPrice;
-        System.out.print("The total of " + numBeverages + " beverages and " + numSandwiches + " sandwiches is " + total + ".");
+        System.out.print("The total of " + numBeverages + " beverages and " + numSandwiches + " sandwiches is $" + total + ".");
 
     }
 }
