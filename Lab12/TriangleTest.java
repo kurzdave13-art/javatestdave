@@ -27,5 +27,9 @@ public class TriangleTest {
             System.out.println(tri.getInfo());
         }
         System.out.printf("\nLargest Initial Area: %.2f\n",Triangle.getLargestInitialArea());
+        
+        Triangle doubled = new TriangleTest.copyTriangle(t2);
+        System.out.println("\nDoubled Triangle:");
+        System.out.println(doubled.getInfo());
     }
 }
