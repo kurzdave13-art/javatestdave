@@ -31,5 +31,6 @@ public class TriangleTest {
         Triangle doubled = new TriangleTest.copyTriangle(t2);
         System.out.println("\nDoubled Triangle:");
         System.out.println(doubled.getInfo());
+        
     }
 }
