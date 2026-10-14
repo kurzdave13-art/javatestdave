@@ -20,7 +20,7 @@ public class Lab3 {
             System.out.print("number of courses: ");
             int numCourses = input.nextInt();
             input.nextLine();
-
+            // consumes next empty line
             Student students = new Student(studentName, studentId, 0);
 
             for(int j = 1; j <= numCourses; j++){

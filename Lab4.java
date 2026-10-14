@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Lab4 {
-
+// parent class
     static class Account {
         protected int id;
         protected String name;

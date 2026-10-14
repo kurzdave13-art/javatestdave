@@ -1,3 +1,4 @@
+// import scanner
 import java.util.Scanner;
 public class A2p1 {
     public static void main(String[] args) {
