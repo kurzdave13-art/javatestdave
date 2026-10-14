@@ -41,6 +41,7 @@ public class Lab3 {
                 students.addCourse(course);
                 course.addStudent(students);
             }
+            System.out.println();
         }
         System.out.println("The input courses are:");
         for(int i = 0; i < masterCoursesCount; i++){
